@@ -1,0 +1,3 @@
+16/1/2019:
+=> SB12 replaced with 470R: VDDA 3V3 drops to 2.95V during conversions.
+=> 10uF added across C34. VDDA now stable.

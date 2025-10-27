@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/16 01:45:48.009.pas,C:\Users\John Bladen\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\John Bladen\Documents\RAD Studio\Projects\TextToBinary\UMain.pas</Transaction>
+    <Transaction>2019/01/16 01:45:48.009.dfm,C:\Users\John Bladen\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\John Bladen\Documents\RAD Studio\Projects\TextToBinary\UMain.dfm</Transaction>
+    <Transaction>2019/01/16 01:48:51.572.dproj,C:\Users\John Bladen\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\John Bladen\Documents\RAD Studio\Projects\TextToBinary\TextToBinary.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

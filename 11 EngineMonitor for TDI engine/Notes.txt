@@ -1,0 +1,21 @@
+• Choice of STM32 USB port:
+  • The CN13 USB port cannot be used to power the board, and power must be provided by some other means, e.g CN1, before CM13 is connected.
+  • I didn't want to have two USB cables from the cabin to the engine bay, so I decided not to use CN13 to output the sensor data to be logged.
+• Collect data on Kubuntu on laptop:
+  • Connect STM32 to vehicle.
+    • ATM32 Ground to G40 camshaft sensor ground (brown with green stripe).
+    • PA4: Ignition 1 via 150K-10K divider.
+    • PA5: G28 crankshaft position sensor signal (purple).
+    • PA6: G40 camshaft position sensor signal (green with purple stripe).
+  • Connect STM32 using Micro USB to USB B cable.
+  • Check device "/dev/ttyACM0" appears.
+  • sudo stty -F /dev/ttyACM0 460800
+• Display data in PulseView.
+  • Import *.csv with these settings:
+    • Column format: a,l,l,a
+    • Column separator " "
+    • First column: 1
+    • Get channel names from first line: No
+    • Number of logic channels: 4
+    • Sample rate: 2000
+    • Start line: 1
