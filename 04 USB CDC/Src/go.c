@@ -4,7 +4,7 @@
 #include "gpio.h"
 #include "usart.h"
 #include "tim.h"
-#include "stm32h7xx_nucleo_144.h"
+#include "stm32h7xx_nucleo.h"
 #include "usb_device.h"
 #include "usbd_cdc_if.h"
 #include "JSB_General.h"

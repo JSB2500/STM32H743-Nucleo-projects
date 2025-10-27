@@ -154,6 +154,7 @@ void Error_Handler(void);
 #define JSB_PE0_GPIO_Port GPIOE
 #define JSB_PE1_Pin GPIO_PIN_1
 #define JSB_PE1_GPIO_Port GPIOE
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -163,5 +164,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

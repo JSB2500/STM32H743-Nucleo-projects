@@ -8,7 +8,6 @@ void Go()
   volatile double A = 1.234;
   volatile double B = 2.345;
   volatile double C, D;
-  uint32_t Q = 0xAAAA;
 
   while(1)
   {
