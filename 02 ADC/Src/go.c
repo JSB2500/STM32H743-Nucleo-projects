@@ -53,15 +53,15 @@ static void Window_Create()
   }
 }
 
-static float Window_Apply(uint32_t *pData)
-{
-  float Total = 0.0f;
-
-  for (uint32_t Index = 0; Index < Window_NumPoints; ++Index)
-    Total += Window_Points[Index] * pData[Index];
-
-  return Total / (Window_a0 * 65536.0f * Window_NumPoints); // 24027920.000000;
-}
+//static float Window_Apply(uint32_t *pData)
+//{
+//  float Total = 0.0f;
+//
+//  for (uint32_t Index = 0; Index < Window_NumPoints; ++Index)
+//    Total += Window_Points[Index] * pData[Index];
+//
+//  return Total / (Window_a0 * 65536.0f * Window_NumPoints); // 24027920.000000;
+//}
 
 ///////////////////////////////////////////////////////////////////////////////
 
