@@ -52,7 +52,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="&quot;../Drivers\BSP\STM32H7xx_Nucleo&quot;"/>
-									<listOptionValue builtIn="false" value="../../../Shared"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/Shared&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1196859156" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
