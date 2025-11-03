@@ -2,3 +2,5 @@
 .metadata/
 .settings/
 Debug/
+!Cube/
+!Cube/**
