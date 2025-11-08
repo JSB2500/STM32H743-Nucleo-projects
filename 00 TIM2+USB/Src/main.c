@@ -27,6 +27,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "go.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,6 +97,8 @@ int main(void)
   MX_HRTIM_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+
+  Go();
 
   /* USER CODE END 2 */
 
